@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DynaPuff", system-ui;
+    scroll-behavior: smooth;
+}
+
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(19, 19, 19);
+    color: #F28500;
+    overflow-x: hidden;
+    max-width: 360px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 8%;
+}
+
+nav img{
+    height: 50px;
+    width: auto;
+}
+
+
+/*Hero*/
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.spanstyle{
+    color: transparent;
+    -webkit-text-stroke: 2px #F28500;
+}
+
+.name{
+    font-size: 35px;
+    color: #808080;
+}
+
+.namejop{
+    font-size: 25px;
+    color: #F28500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.social a{
+    background-color: #808080;
+    color: rgb(19, 19, 19);
+    size: 12px;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.herobtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.herobtn a{
+    text-decoration: none;
+    background-color: #F28500;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contectbtn{
+    background-color: rgb(19, 19, 19);
+    border: 2px solid #F28500;
+    color: #F28500;
+}
+
+
+/* gch */
+.jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.jobs h1{
+    width: 80%;
+    font-size: 25px;
+    margin: 10px;
+    text-align: left;
+}
+
+hr{
+    width: 80%;
+    border: 1px solid #808080;
+    margin: 15px;
+}
+
+
+/* hgf */
+.aboutmy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.titel{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutmy img{
+    width: 70%;
+    margin-bottom: 30px;
+
+
+}
+
+.aboutmy p{
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    color: #808080;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.skillsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skill h2{
+    font-size: 15px;
+    margin-top: 15px;
+    color: #808080;
+}
+
+.skill img{
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-radius: 50%;
+    width: 70px;
+    padding: 19px;
+}
+
+/* fn */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 150px;
+    gap: 20px;
+
+}
+
+.contact img{
+    width: 80%;
+    margin-bottom: -50px;
+}
+
+.form{
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input {
+  width: 280px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+
+.input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+}
+
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: rgb(19, 19, 19);
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ccc;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #ccc;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: black;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 20px;
+}
+
+footer p{
+    font-size: 12px;
+    color: #808080;
+}
