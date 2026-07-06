@@ -44,7 +44,7 @@ nav img{
 }
 
 .name h1{
-    font-size: 10px;
+    font-size: 50px;
     color: #808080;
 }
 
@@ -197,6 +197,7 @@ hr{
 }
 
 .form{
+    width: 100%;
     background-color: black;
     border-radius: 10px;
     padding: 15px 15px;
@@ -211,6 +212,7 @@ textarea{
 }
 
 .input {
+  width: 100%;
   border: none;
   outline: none;
   border-radius: 15px;
