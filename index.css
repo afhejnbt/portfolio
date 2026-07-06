@@ -7,15 +7,12 @@
 }
 
 html{
-    overflow-x: hidden;
     width: 100%;
 }
 
 body{
     background-color: rgb(19, 19, 19);
     color: #F28500;
-    overflow-x: hidden;
-    max-width: 360px;
 }
 
 nav{
@@ -36,7 +33,8 @@ nav img{
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-left: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 50px;
 }
 
@@ -46,7 +44,7 @@ nav img{
 }
 
 .name{
-    font-size: 35px;
+    font-size: 30px;
     color: #808080;
 }
 
@@ -61,8 +59,8 @@ nav img{
 .social a{
     background-color: #808080;
     color: rgb(19, 19, 19);
-    size: 12px;
-    padding: 4px;
+    size: 18px;
+    padding: 5px;
     border-radius: 50%;
     margin-right: 5px;
     margin-left: 5px;
@@ -83,7 +81,7 @@ nav img{
     border-radius: 30px;
     color: rgb(19, 19, 19);
     font-size: 20px;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 .contectbtn{
@@ -98,19 +96,19 @@ nav img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 100px;
 }
 
 .jobs h1{
-    width: 80%;
+    width: 100%;
     font-size: 25px;
-    margin: 10px;
     text-align: left;
 }
 
 hr{
-    width: 80%;
+    width: 100%;
     border: 1px solid #808080;
     margin: 15px;
 }
@@ -121,7 +119,8 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 100px;
 }
 
@@ -148,15 +147,16 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 8%;
-    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 150px;
 }
 
 .skillsbox{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
 }
 
 .skill{
@@ -184,7 +184,8 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 150px;
     gap: 20px;
 
@@ -205,8 +206,11 @@ hr{
     gap: 20px;
 }
 
+textarea{
+    height: 200px;
+}
+
 .input {
-  width: 280px;
   border: none;
   outline: none;
   border-radius: 15px;
@@ -270,7 +274,7 @@ hr{
 
 .cta:hover:before {
   width: 100%;
-  background: black;
+  background: rgb(19, 19, 19);
 }
 
 .cta:hover svg {
@@ -289,11 +293,11 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 100px;
     gap: 20px;
 }
 
 footer p{
-    font-size: 12px;
+    font-size: 10px;
     color: #808080;
 }
